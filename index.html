@@ -5,21 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
-		div{
-			margin: 0px auto;
-			padding: 0;
-		}
-	</style>
-</head>
-<body>
-	<hr>
-	<div>
-		<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>会员注册表</title>
-	<style>
+			<style>
 		P{
 			font-size: 10px;
 		}
@@ -27,14 +13,29 @@
 span{font-size: 1px;
 	color: red;
 
-}
+ table,td{
+		border: 1px solid red;	
+
+	}
+	table{
+
+		border-collapse: collapse;
+
+	}
+	td{
+text-align: center;
+				width: 50px;
+		height: 50px;
+	}
 	</style>
 </head>
 <body>
+	<hr>
+	<div>
 	<div>
 	<h1>会员注册表</h1>
 	<hr>
-<P>
+  <P>
 		<label form="yhm">用户名：</label>
 		<input  id="yhm" type="post" name="yhm" value="请输入姓名" readonly><span>字母数字下划线，2-10位</span>
 	</P>
@@ -67,7 +68,7 @@ span{font-size: 1px;
 		<label for="01">排球</label>
 	</P>
 	<p>
-		<label for="age">居住地：</label>
+		<label form="age">居住地：</label>
 		<select name="age" id="age">
 		<option value="qh">青海</option>
 		<option value="q"selected>请选择</option>
@@ -91,19 +92,9 @@ span{font-size: 1px;
 		<input type="reset" value="取消">
 	</P>
 		</div>
-	</body>
-	</html>
 	</div>
 	<hr>
 	<div>
-	<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	
-</head>
-<body>
 	<div>
 	<h1>Information From</h1>
 		<P>
@@ -122,7 +113,7 @@ span{font-size: 1px;
 		<label for="p">female</label>
 	</P>
 	<p>
-		<label for="age" >age</label>
+		<label form="age" >age</label>
 		<select name="age" id="age">
 		<option value="3">3</option>
 		<option value="1" selected>1</option>
@@ -133,26 +124,20 @@ span{font-size: 1px;
 <P>
 	<label form="q">course</label>
 		<input id="e" type="checkbox" name="w" value="" >
-		<label for="e">Chinese</label>
+		<label form="e">Chinese</label>
 		<input id="p" type="checkbox" name="w" value="">
-		<label for="p">Math</label>
+		<label form="p">Math</label>
 		<input id="m" type="checkbox" name="w" value="">
-		<label for="m">English</label>
+		<label form="m">English</label>
 	</P>
 	<P>
 		<input type="submit"  value="Submit it!">
 		<input type="reset" value="Reset it!">
 	</P>
 	</div>
-</body>
-</html>
 	</div>
 <hr>
 <div>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
 	<title>Document</title>
 <style>
 	table,td{
@@ -193,15 +178,9 @@ text-align: center;
 		<td colspan="6"></td>
 	</tr>
 	</table>
-</body>
-</html>
 </div>
 	<hr>
 	<div>
-	<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
 	<title>Document</title>
 <style>
 	table,td{
@@ -249,8 +228,6 @@ text-align: center;
 		<td colspan="2"></td>
 	</tr>
 	</table>
-</body>
-</html>
 </div>
 <hr>
 <div>
@@ -299,8 +276,6 @@ text-align: center;
 			<td class="ss"></td>
 		</tr>
 	</table>
-</body>
-<html>
 </div>
 </body>
 </html>
